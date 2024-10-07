@@ -30,34 +30,6 @@ normal_to_moew: dict = {
   ',': 'MEH'
 }
 
-moew_to_normal: dict = {
-  "moew": "A",
-  "Miaw": "B",
-  "Moew": "C",
-  "miaw": "D",
-  "mOew": "E",
-  "moEw": "F",
-  "moeW": "G",
-  "MOew": "H",
-  "MoEw": "I",
-  "MoeW": "J",
-  'mOEww': "K",
-  'mOeW': "L",
-  'mOEw': "M",
-  "MOEw": 'N',
-  'mOEW': "O",
-  'MOEW': "P",
-  'mIaw': "Q",
-  'miAw': 'R',
-  'miaW': "S",
-  "MIaww": "T",
-  'MiAww': "U",
-  'MiaWw': "V",
-  'MIaw': "W",
-  'MiAw': "X",
-  'MiaW': "Y",
-  'MIAw': 'Z',
-  'MIAW': ' ',
-  'Meh': ".",
-  'MEH': ','
-}
+moew_to_normal: dict = {}
+for k, v in normal_to_moew.items():
+  moew_to_normal[k] = v
